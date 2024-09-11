@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Moxfield to Scryfall Linker",
+    "version": "1.0",
+    "description": "Adds a link button on Moxfield deck card images that links to Scryfall.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.moxfield.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "96": "images/icon_96_96.png",
+      "128": "images/icon_128_128.png",
+      "256": "images/icon_256_256.png"
+    }
+  }
+  
