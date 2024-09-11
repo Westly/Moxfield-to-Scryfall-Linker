@@ -1,0 +1,6 @@
+Version 1.0.0 - 2024-09-10
+
+- Initial release of Moxfield-to-Scryfall Linker.
+- Added Scryfall link icons that appear when hovering over Magic: The Gathering card images on Moxfield.
+- Users can click the link icon to open the card's page on Scryfall.
+- Implemented `MutationObserver` to detect dynamically loaded content.
