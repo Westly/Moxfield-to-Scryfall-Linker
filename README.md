@@ -9,3 +9,5 @@ A simple Firefox extension that adds a Scryfall link icon when you hover over a 
 ## How It Works
 
 This extension dynamically adds a Scryfall link button to card images on Moxfield deck pages. Clicking the scryfall icon will take you to scryfall. 
+
+![Moxfield-to-Scryfall-Linker Screenshot](images/demo.gif)
